@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{295e8847-98cf-4c27-9cd2-2987f9e893df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory_utils">
+      <UniqueIdentifier>{843d1887-1e42-4eb3-b3d6-84ee751dca8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\global_vars">
+      <UniqueIdentifier>{1c401875-b7f8-4c90-bac7-dfccfdf8c0fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\overlay">
+      <UniqueIdentifier>{b0746c37-7498-498f-aa8e-ffdedf478726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{97d1848f-b727-41bd-acbf-db9d8d657516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{95ad08c5-b256-42c6-9d45-18deac4e869e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{e37c6034-6998-4f2d-92fa-1b9aae4595d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\vector">
+      <UniqueIdentifier>{11cff4f9-77d2-4e42-a093-e142e69f5b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\matrix4x4">
+      <UniqueIdentifier>{806f9556-4e68-45b2-838a-d2c0b45c11ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXWF">
+      <UniqueIdentifier>{c76270b6-4277-42fd-9a9c-cb3eb86b6763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXWF\x86">
+      <UniqueIdentifier>{14f927bb-98f9-4904-baf6-a46416a0ad9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXWF\x64">
+      <UniqueIdentifier>{cf2f89b9-5917-4873-91d4-c292d0322f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\draw-list">
+      <UniqueIdentifier>{a72347fe-e4dc-428d-9122-08482ee33a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vars">
+      <UniqueIdentifier>{de28957e-b2e8-4317-ad45-0876f65d339a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_utils\memory_utils.cpp">
+      <Filter>memory_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\global_vars\global_vars.cpp">
+      <Filter>src\global_vars</Filter>
+    </ClCompile>
+    <ClCompile Include="src\overlay\overlay.cpp">
+      <Filter>src\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\features.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector\vector.cpp">
+      <Filter>src\math\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\draw-list\draw-list.cpp">
+      <Filter>src\draw-list</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vars\vars.cpp">
+      <Filter>src\vars</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\includes.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_utils\memory_utils.h">
+      <Filter>memory_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\global_vars\global_vars.h">
+      <Filter>src\global_vars</Filter>
+    </ClInclude>
+    <ClInclude Include="src\overlay\overlay.h">
+      <Filter>src\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\features.h">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\utils.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\martix4x4\matrix4x4.h">
+      <Filter>src\math\matrix4x4</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector\vector.h">
+      <Filter>src\math\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="DXWF\DXWF.h">
+      <Filter>DXWF</Filter>
+    </ClInclude>
+    <ClInclude Include="src\draw-list\draw-list.h">
+      <Filter>src\draw-list</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vars\vars.h">
+      <Filter>src\vars</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DXWF\x64\DXWF.lib">
+      <Filter>DXWF\x64</Filter>
+    </Library>
+    <Library Include="DXWF\x86\DXWF.lib">
+      <Filter>DXWF\x86</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
